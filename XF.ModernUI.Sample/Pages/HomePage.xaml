@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="XF.ModernUI.Sample.Pages.HomePage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:modern="clr-namespace:XF.ModernUI.Forms;assembly=XF.ModernUI.Forms"
+    Title="XF Modern UI Sample">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Margin="20,10" Spacing="20">
+                    <Label Text="Modern UI Button" />
+                    <modern:ModernButton
+                        BackgroundColor="#ff9500"
+                        HasShadow="True"
+                        Text="Sample Button"
+                        TextColor="White" />
+                </StackLayout>
+                <StackLayout Margin="20,10" Spacing="20">
+                    <Label Text="Modern UI Text Field" />
+                    <modern:ModernButton
+                        BackgroundColor="#ff9500"
+                        HasShadow="True"
+                        Text="Sample Button"
+                        TextColor="White" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
